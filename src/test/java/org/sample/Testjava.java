@@ -14,7 +14,8 @@ public class Testjava {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		System.out.println("Rajesh welcome to virtusa");
+		driver.close();
+		
 		
 		
 		
